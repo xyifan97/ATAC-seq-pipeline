@@ -1,0 +1,13 @@
+###
+fast-dump SRR****.sra --gzip --split-3 -A output_name -O output_dirctory
+--gzip output gz format
+--split-3 pairend file 
+
+###
+cat sample_id
+while read id do
+fast-dump $id.sra --gzip --split-3 -A $id_clean -O clean
+done
+
+
+
