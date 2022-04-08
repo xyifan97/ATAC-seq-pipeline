@@ -6,7 +6,7 @@
 --stringency 设置与接头重叠的序列
 --paired 双端测序文件质控都通过才保留
 -o output_dirctory
-fastq1
+fastq1 
 fastq2
 
 
