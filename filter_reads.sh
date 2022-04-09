@@ -18,7 +18,7 @@ samtolls flagstat test.rmdup.bam > test.rmdup.stat
 ### use IGV virsulizatipn reads 
 
 ### samtools rm unproper pair mapping, low quality reads and chrM reads
-samtools view -f 2 -q 30 test.rmdup.bam|grep -v chrM |samtools sort -O bam -@ 64 -o test.last.bam -  
+samtools view -h -f 2 -q 30 test.rmdup.bam|grep -v chrM |samtools sort -O bam -@ 64 -o test.last.bam -  
 
 samtools index test.last.bam
 samtools flagstat test.last.stat
