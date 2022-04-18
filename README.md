@@ -10,4 +10,4 @@ Fastqc -- clean data visualization
 bowtie -- alignment reads to reference genome
 bedtools --
 macs2 -- call peaks
-
+ChipSeeker -- peaks annotation
